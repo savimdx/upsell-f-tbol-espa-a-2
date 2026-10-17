@@ -8,8 +8,8 @@ import {
   Zap,
   Target
 } from 'lucide-react';
-const MOCKUP_PACK_IMAGE = "https://i.ibb.co/PkHQwJ1/Chat-GPT-Image-29-de-ago-de-2026-20-45-06.png";
-const MOCKUP_PACK_JPG = "/100-ejercicios-finalizaciones.jpg";
+const MOCKUP_PACK_IMAGE = "https://i.ibb.co/27bQRDkq/Capa-de-Treino-de-Futebol-Neon-1.png";
+const MOCKUP_PACK_JPG = "/200-ejercicios-finalizacion-velocidad.jpg";
 
 interface UpsellRFEFProps {
   onAccept?: () => void;
@@ -131,19 +131,20 @@ export default function UpsellRFEF({ onAccept, onDecline }: UpsellRFEFProps) {
           </div>
         </div>
         
-        {/* ================= 3. TÍTULO PRINCIPAL UPSELL (+100 EJERCICIOS) ================= */}
+        {/* ================= 3. TÍTULO PRINCIPAL UPSELL (+200 EJERCICIOS) ================= */}
         <div className="text-center space-y-2">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-100 text-orange-700 text-[11px] font-black uppercase tracking-wider mb-1">
             <Target className="w-3.5 h-3.5" />
-            <span>Multiplica la Eficacia Goleadora de tu Equipo</span>
+            <span>Multiplica la Velocidad y Eficacia Goleadora de tu Equipo</span>
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-[900] tracking-tight leading-tight uppercase text-slate-900">
-            <span className="text-[#E61E05]">100 EJERCICIOS DE FINALIZACIONES EN FÚTBOL</span>
+            <span className="whitespace-nowrap text-[#E61E05]">+200 EJERCICIOS</span> DE{' '}
+            <span className="whitespace-normal">FINALIZACIÓN Y VELOCIDAD EN FÚTBOL</span>
           </h1>
 
           <p className="text-xs sm:text-sm md:text-base text-slate-600 max-w-xl mx-auto font-medium">
-            Completa tu pedido con la guía definitiva de remates, definición y gol para delanteros y atacantes por <span className="whitespace-nowrap font-bold text-slate-900">solo 9 €</span> en lugar de 180 € (<span className="text-[#E61E05] font-bold">-95% de descuento</span>).
+            Completa tu pedido con la guía definitiva de definición letal, velocidad explosiva y remates para delanteros por <span className="whitespace-nowrap font-bold text-slate-900">solo 9 €</span> en lugar de 180 € (<span className="text-[#E61E05] font-bold">-95% de descuento</span>).
           </p>
         </div>
 
@@ -162,7 +163,7 @@ export default function UpsellRFEF({ onAccept, onDecline }: UpsellRFEFProps) {
                     target.src = MOCKUP_PACK_JPG;
                   }
                 }}
-                alt="100 Ejercicios de Finalizaciones en Fútbol" 
+                alt="+200 Ejercicios de Finalización y Velocidad en Fútbol" 
                 className="relative w-full h-auto object-contain drop-shadow-2xl rounded-lg transform hover:scale-[1.02] transition-transform duration-300"
                 loading="eager"
                 decoding="async"
@@ -198,7 +199,7 @@ export default function UpsellRFEF({ onAccept, onDecline }: UpsellRFEFProps) {
             </p>
           </div>
 
-          {/* LISTA DE BENEFICIOS CONCISA Y ENFOCADA EN FINALIZACIONES */}
+          {/* LISTA DE BENEFICIOS CONCISA Y ENFOCADA EN FINALIZACIÓN Y VELOCIDAD */}
           <div className="space-y-2.5 pt-1">
             <h3 className="text-xs sm:text-sm font-black text-slate-900 uppercase flex items-center gap-1.5">
               <Sparkles className="h-4 w-4 text-orange-500 flex-shrink-0" />
@@ -208,15 +209,15 @@ export default function UpsellRFEF({ onAccept, onDecline }: UpsellRFEFProps) {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700">
               <div className="flex items-center gap-2 bg-slate-50 border border-slate-200/80 p-2.5 rounded-xl">
                 <Check className="h-4 w-4 text-emerald-600 flex-shrink-0" />
-                <span className="font-semibold text-slate-900">100 Ejercicios Prácticos de Remate y Definición</span>
+                <span className="font-semibold text-slate-900">+200 Ejercicios Específicos de Finalización y Velocidad</span>
               </div>
               <div className="flex items-center gap-2 bg-slate-50 border border-slate-200/80 p-2.5 rounded-xl">
                 <Check className="h-4 w-4 text-emerald-600 flex-shrink-0" />
-                <span className="font-semibold text-slate-900">Mano a Mano 1vs1, Desmarques y Tiros al Primer Toque</span>
+                <span className="font-semibold text-slate-900">Desmarques de Ruptura, Aceleración y Duelos 1vs1</span>
               </div>
               <div className="flex items-center gap-2 bg-slate-50 border border-slate-200/80 p-2.5 rounded-xl">
                 <Check className="h-4 w-4 text-emerald-600 flex-shrink-0" />
-                <span className="font-semibold text-slate-900">Centros, Remates de Cabeza, Voleas y Media Distancia</span>
+                <span className="font-semibold text-slate-900">Transiciones Rápidas, Tiros al Primer Toque y Remates a Gol</span>
               </div>
               <div className="flex items-center gap-2 bg-slate-50 border border-slate-200/80 p-2.5 rounded-xl">
                 <Check className="h-4 w-4 text-emerald-600 flex-shrink-0" />
