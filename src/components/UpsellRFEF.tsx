@@ -144,7 +144,7 @@ export default function UpsellRFEF({ onAccept, onDecline }: UpsellRFEFProps) {
           </h1>
 
           <p className="text-xs sm:text-sm md:text-base text-slate-600 max-w-xl mx-auto font-medium">
-            Completa tu pedido con la guía definitiva de definición letal, velocidad explosiva y remates para delanteros por <span className="whitespace-nowrap font-bold text-slate-900">solo 9 €</span> en lugar de 180 € (<span className="text-[#E61E05] font-bold">-95% de descuento</span>).
+            Completa tu pedido con la guía definitiva de definición letal, velocidad explosiva y remates para delanteros por <span className="whitespace-nowrap font-bold text-slate-900">solo MX$135.72</span> en lugar de MX$2,714 (<span className="text-[#E61E05] font-bold">-95% de descuento</span>).
           </p>
         </div>
 
@@ -180,7 +180,7 @@ export default function UpsellRFEF({ onAccept, onDecline }: UpsellRFEFProps) {
             
             <div className="flex items-center justify-center gap-3 whitespace-nowrap flex-nowrap">
               <span className="text-sm sm:text-base font-bold text-slate-400 line-through whitespace-nowrap">
-                180 €
+                MX$2,714
               </span>
               <span className="bg-red-600 text-white text-xs sm:text-sm font-black px-3 py-0.5 rounded-full uppercase whitespace-nowrap shadow-sm">
                 -95% DESCUENTO
@@ -189,8 +189,8 @@ export default function UpsellRFEF({ onAccept, onDecline }: UpsellRFEFProps) {
 
             {/* PRECIO EN DESTACADO CON WHITESPACE NOWRAP */}
             <div className="flex items-baseline justify-center text-[#E61E05] font-['Montserrat','Arial_Black',sans-serif] whitespace-nowrap flex-nowrap py-1">
-              <span className="text-7xl sm:text-8xl md:text-9xl font-[900] tracking-tight leading-none whitespace-nowrap drop-shadow-[0_4px_12px_rgba(230,30,5,0.2)]">
-                9 €
+              <span className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-[900] tracking-tight leading-none whitespace-nowrap drop-shadow-[0_4px_12px_rgba(230,30,5,0.2)]">
+                MX$135.72
               </span>
             </div>
 
